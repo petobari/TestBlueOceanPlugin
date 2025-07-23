@@ -27,6 +27,7 @@ pipeline {
     stage('deploy') {
       steps {
         echo 'deployment compoleted'
+        echo 'are you sure'
       }
     }
 
